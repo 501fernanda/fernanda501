@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Funciones de Cadenas</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet"
+      href="estilos.css">
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold"
+   href="index.html">
+
+<i class="bi bi-code-slash"></i>
+PRÁCTICA JAVASCRIPT
+
+</a>
+
+
+<button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+
+<div class="collapse navbar-collapse"
+     id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link"
+   href="index.html">
+Inicio
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+   href="matematicas.html">
+Matemáticas
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active"
+   href="cadenas.html">
+Cadenas
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+   href="fecha.html">
+Fecha y Hora
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+   href="arrays.html">
+Arrays
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+
+<section class="titulo-pagina">
+
+<div class="container">
+
+<h1>
+<i class="bi bi-fonts"></i>
+Funciones de Cadenas
+</h1>
+
+<p>
+Ejercicios con textos
+</p>
+
+</div>
+
+</section>
+
+
+<section class="seccion">
+
+<div class="container">
+
+
+<!-- PALÍNDROMO -->
+
+<div class="card tarjeta">
+
+<div class="card-body">
+
+<h3>
+1. Verificar si una palabra o frase es palíndromo
+</h3>
+
+<input type="text"
+       id="textoPalindromo"
+       class="form-control"
+       placeholder="Escriba una palabra o frase">
+
+
+<button class="btn btn-primary mt-3"
+        onclick="verificarPalindromo()">
+
+Verificar
+
+</button>
+
+
+<div id="resultadoPalindromo"
+     class="resultado">
+</div>
+
+</div>
+
+</div>
+
+
+<!-- INICIALES -->
+
+<div class="card tarjeta">
+
+<div class="card-body">
+
+<h3>
+2. Obtener iniciales
+</h3>
+
+<p>
+Introduzca nombres y apellidos.
+</p>
+
+<p class="ejemplo">
+Ejemplo: Marcelo Chavez de la Torre → MCDLT
+</p>
+
+
+<input type="text"
+       id="nombreCompleto"
+       class="form-control"
+       placeholder="Marcelo Chavez de la Torre">
+
+
+<button class="btn btn-primary mt-3"
+        onclick="obtenerIniciales()">
+
+Obtener iniciales
+
+</button>
+
+
+<div id="resultadoIniciales"
+     class="resultado">
+</div>
+
+</div>
+
+</div>
+
+
+<!-- BUSCAR -->
+
+<div class="card tarjeta">
+
+<div class="card-body">
+
+<h3>
+3. Buscar y reemplazar
+</h3>
+
+
+<label>
+Texto:
+</label>
+
+<textarea id="textoBuscar"
+          class="form-control"
+          rows="3"
+          placeholder="Me encanta programar en Java"></textarea>
+
+
+<div class="row g-3 mt-1">
+
+<div class="col-md-6">
+
+<label>
+Buscar:
+</label>
+
+<input type="text"
+       id="palabraBuscar"
+       class="form-control"
+       placeholder="Java">
+
+</div>
+
+
+<div class="col-md-6">
+
+<label>
+Reemplazar:
+</label>
+
+<input type="text"
+       id="palabraReemplazar"
+       class="form-control"
+       placeholder="PHP">
+
+</div>
+
+</div>
+
+
+<button class="btn btn-primary mt-3"
+        onclick="buscarReemplazar()">
+
+Buscar y reemplazar
+
+</button>
+
+
+<div id="resultadoReemplazar"
+     class="resultado">
+</div>
+
+</div>
+
+</div>
+
+
+<a href="index.html"
+   class="btn btn-dark">
+
+<i class="bi bi-arrow-left"></i>
+Volver al menú principal
+
+</a>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<h5>Práctica de JavaScript</h5>
+
+<p>
+Sistemas Informáticos - INCOS La Paz
+</p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="funciones.js"></script>
+
+</body>
+
+</html>

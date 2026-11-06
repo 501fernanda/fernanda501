@@ -1,0 +1,450 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7a3f0;
+    color: #212529;
+}
+
+
+/* =========================
+   MENÚ
+========================= */
+
+.navbar {
+    padding: 13px 0;
+}
+
+.navbar-brand {
+    font-size: 19px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #20c997 !important;
+}
+
+
+/* =========================
+   INICIO
+========================= */
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 0;
+
+    color: rgb(236, 190, 248);
+
+    background: linear-gradient(
+        135deg,
+        #5390ed,
+        #8322c4,
+        #df36c8
+    );
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.hero h3 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+
+/* =========================
+   PERFIL
+========================= */
+
+.perfil {
+    padding: 30px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.15);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.2);
+}
+
+.foto-perfil {
+    width: 190px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid rgb(242, 177, 239);
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.seccion {
+    padding: 75px 0;
+}
+
+.fondo {
+    background: #f2ccfa;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-seccion h2 {
+    color: #8814d0;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.titulo-seccion p {
+    color: #6c757d;
+}
+
+
+/* =========================
+   TÍTULO DE PÁGINAS
+========================= */
+
+.titulo-pagina {
+    padding: 65px 0;
+
+    color: white;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #8513b9,
+        #af22a8
+    );
+}
+
+.titulo-pagina h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.titulo-pagina p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjeta {
+    border: none;
+
+    border-radius: 18px;
+
+    margin-bottom: 30px;
+
+    box-shadow:
+        0 8px 25px rgba(8, 8, 8, 0.08);
+}
+
+.tarjeta .card-body {
+    padding: 30px;
+}
+
+.tarjeta h3 {
+    color: #7d12db;
+
+    font-weight: bold;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   TARJETAS DEL MENÚ
+========================= */
+
+.menu-card {
+    border: none;
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.15);
+}
+
+.menu-card h3 {
+    color: #0d6efd;
+
+    font-weight: bold;
+}
+
+.icono {
+    font-size: 55px;
+
+    color: #0d6efd;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   DATOS
+========================= */
+
+.dato {
+    padding: 20px;
+
+    text-align: center;
+
+    background: #deb7f5;
+
+    border-radius: 12px;
+
+    height: 100%;
+}
+
+.dato i {
+    display: block;
+
+    font-size: 30px;
+
+    color: #032c69;
+
+    margin-bottom: 10px;
+}
+
+.dato strong {
+    display: block;
+
+    margin-bottom: 8px;
+}
+
+.dato span {
+    color: #555a5f;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+.form-control {
+    padding: 12px;
+
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(13,110,253,0.15);
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.btn {
+    border-radius: 10px;
+
+    padding: 10px 18px;
+
+    font-weight: 600;
+}
+
+
+/* =========================
+   RESULTADOS
+========================= */
+
+.resultado {
+    margin-top: 20px;
+
+    padding: 15px;
+
+    min-height: 25px;
+
+    background: #f1dff8;
+
+    border-left: 5px solid #0d6efd;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    word-wrap: break-word;
+}
+
+.explicacion {
+    padding: 15px;
+
+    background: #fff8e1;
+
+    border-left: 5px solid #d969f5;
+
+    border-radius: 10px;
+}
+
+.ejemplo {
+    color: #6c757d;
+
+    font-style: italic;
+}
+
+
+/* =========================
+   FÓRMULA
+========================= */
+
+.formula {
+    padding: 18px;
+
+    margin: 20px 0;
+
+    text-align: center;
+
+    color: white;
+
+    background: #212529;
+
+    border-radius: 10px;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   RELOJ
+========================= */
+
+.reloj {
+    padding: 25px;
+
+    margin-top: 20px;
+
+    color: #bb35d9;
+
+    background: #f6b6e8;
+
+    border-radius: 15px;
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    letter-spacing: 5px;
+}
+
+
+/* =========================
+   ARRAYS
+========================= */
+
+.vector {
+    padding: 20px;
+
+    overflow-x: auto;
+
+    color: #197559;
+
+    background: #212529;
+
+    border-radius: 10px;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 18px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 40px 0;
+
+    text-align: center;
+
+    color: white;
+
+    background: #24282c;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer p {
+    color: #adb5bd;
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .perfil {
+        margin-top: 40px;
+    }
+
+    .titulo-pagina h1 {
+        font-size: 32px;
+    }
+
+    .reloj {
+        font-size: 35px;
+
+        letter-spacing: 2px;
+    }
+
+}
